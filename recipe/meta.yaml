@@ -1,4 +1,4 @@
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 
 package:
   name: libfido2
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/Yubico/libfido2/archive/{{ version }}.tar.gz
-  sha256: 0830c5853e3b44099a97166e0cec54a65b54b7faaac07071872f77b8e4d7b302
+  sha256: 813d6d25116143d16d2e96791718a74825da16b774a8d093d96f06ae1730d9c5
 
 build:
   number: 0
